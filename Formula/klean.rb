@@ -2,15 +2,15 @@ class Klean < Formula
   desc "Safe, efficient CLI for cleaning development environments"
   homepage "https://github.com/danil0ws/klean"
   # Asset names contain the target triple, so set the version explicitly.
-  version "1.7.1"
+  version "1.8.0"
   license "MIT OR Apache-2.0"
 
   if Hardware::CPU.arm?
-    url "https://github.com/danil0ws/klean/releases/download/v1.7.1/klean-v1.7.1-aarch64-apple-darwin.tar.gz"
-    sha256 "d7cb5b96450ae4c394b64ced833523240d44fc1f2685b3d4fba37e42f5b91030"
+    url "https://github.com/danil0ws/klean/releases/download/v1.8.0/klean-v1.8.0-aarch64-apple-darwin.tar.gz"
+    sha256 "76284d864319b04e75035edefd250e9c9184fef927142379251aa3d7f25cb45d"
   else
-    url "https://github.com/danil0ws/klean/releases/download/v1.7.1/klean-v1.7.1-x86_64-apple-darwin.tar.gz"
-    sha256 "0794d7b4ace60bd841e7c0025f6026cdbd7e138ae7409cdb8869e3ec4f8727a2"
+    url "https://github.com/danil0ws/klean/releases/download/v1.8.0/klean-v1.8.0-x86_64-apple-darwin.tar.gz"
+    sha256 "002c460417c24789a956ba8b466e510cdfc54259806e64af133f308f660fb04a"
   end
 
   depends_on :macos
